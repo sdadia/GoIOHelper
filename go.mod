@@ -1,3 +1,3 @@
-module github.com/sdadia/GoIOHelper
+module GoIOHelper
 
 go 1.18
