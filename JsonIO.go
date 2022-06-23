@@ -6,7 +6,7 @@ import (
 	"log"
 )
 
-func writeJsonToFile(data interface{}, fileName string) error {
+func writeJsonToFile(data []byte, fileName string) error {
 	dataAsBytes, _ := json.Marshal(data)
 	err := ioutil.WriteFile(fileName, dataAsBytes, 0644)
 	if err != nil {
