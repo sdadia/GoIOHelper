@@ -1,4 +1,4 @@
-package GoIOHelper
+package JSON
 
 import (
 	"encoding/json"
